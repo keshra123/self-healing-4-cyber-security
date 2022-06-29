@@ -28,6 +28,7 @@ class AnomalyContainer:
     def clear_anomalies(self):
         self._anomalies.clear()
 
+#imports anomaly container and stores it within a dictionary
 
 class AnomalyContainerCollection:
     def __init__(self):

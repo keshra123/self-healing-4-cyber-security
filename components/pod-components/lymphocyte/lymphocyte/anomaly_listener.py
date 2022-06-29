@@ -13,7 +13,7 @@ from mongo_puller import MongoPuller
 
 logger = logging.getLogger()
 
-
+#anomaly container; imports AnomalyModel (nothing in there) 
 class AnomalyContainer:
     def __init__(self):
         self._anomalies = []
